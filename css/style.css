@@ -1,0 +1,26 @@
+.for{
+  width: 65%;
+}
+.for .contain{
+  width: 90%;
+  margin: auto;
+}
+.spa{
+  color: #fff;
+  text-decoration: none;
+  transition: all 0.5s;
+  cursor: pointer;
+ }
+.spa:hover{
+  text-decoration: underline;
+}
+.home{
+  height: 100vh;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+.home-content{
+  width: 65%;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="bg-success">
+    <div class="home bg-success d-none">
+        <nav class="navbar shadow-lg bg-success navbar-expand-lg fixed-top">
+            <div class="container">
+              <a class="navbar-brand text-white" href="#">SMART LOGIN</a>
+              <a  id="logOut" class="btn btn-outline-warning">Log Out</a> 
+            </div>
+          </nav>
+        <div class="home-content mt-5 mx-auto text-center bg-success shadow-lg py-5">
+            <h1 id="hello"></h1>
+       </div>
+     </div>
+        <div class="for mt-5 mx-auto text-center bg-success shadow-lg py-5">
+            <h1 class="text-info pb-3">Smart Login System</h1>
+             <div class="contain">
+                <form action="">
+                    <input type="text" class="form-control mb-3 d-none" id="userName"
+                     placeholder="Enter your name">
+                    <input id="userEmail" type="email" class="form-control mb-3" placeholder="Enter your email">
+                    <input id="userPassword" type="password" class="form-control mb-3" placeholder="Enter your password">
+                    <p id="validly"></p>
+                    <a id="logIn" type="button" class="btn btn-outline-info w-100">Login</a>
+                    <button id="logUp" type="button" onclick="newUser()" 
+                    class="btn btn-outline-info w-100 d-none">Sign Up</button>
+                    <p id="pUp" class="pt-3 h6 text-white">Don’t have an account?
+                         <a id="signUp" class="spa">Sign Up</a></p>
+                         <p id="pIn" class="pt-3 h6 text-white d-none">You have an account?
+                            <a id="signIn" class="spa">Signin</a></p>
+              </form>
+             </div>
+        </div>
+        <script src="js/main.js"></script>
+</body>
+</html>
